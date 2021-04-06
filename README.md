@@ -8,3 +8,5 @@ The expected outcomes are:
 - Definition of new GitHub labels
 - Definition of new forward looking branch structure to collect breaking changes to the next major release and allow for preleases
 - Definition of new changelog design for auto-update compatibility
+
+The current focus is on https://github.com/semantic-release/semantic-release as release automator.
