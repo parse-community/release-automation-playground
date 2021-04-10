@@ -6,12 +6,6 @@ on:
   workflow_dispatch:
     types: [semantic-release]
 jobs:
-  print-inputs:
-    runs-on: ubuntu-latest
-    steps:
-    - run: |
-      echo "Log level: ${{ github.event.inputs.logLevel }}"
-      echo "Tags: ${{ github.event.inputs.tags }}"
   release:
     name: Release
     runs-on: ubuntu-latest
